@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-left: 3rem;
+  color: #6c63ff !important;
+}
+
+.hero-section {
+  background-color: #fafafa;
+  padding: 1rem;
+}
+
+.hero-cta {
+  margin-top: 1.5rem;
+  font-family: Montserrat;
+}
+.hero-cta > h4 {
+  padding: 1rem;
+}
+
+.hero-btn {
+  margin-left: 1rem;
+}
+
+.land-page-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+.section-headers {
+  text-align: center;
+  font-family: Montserrat;
+  padding: 3rem;
+}
+
+p {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.card-img-container {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.card-headers {
+  color: black;
+  text-align: center;
+}
+.card-icons {
+  width: 20%;
+}
