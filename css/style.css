@@ -37,9 +37,8 @@
   padding: 3rem;
 }
 
-p {
-  text-align: center;
-  margin-top: 3rem;
+.about-us-txt {
+  margin-top: 4.5rem;
 }
 
 .card-img-container {
@@ -52,4 +51,7 @@ p {
 }
 .card-icons {
   width: 20%;
+}
+.services-btn {
+  text-align: center;
 }

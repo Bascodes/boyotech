@@ -17,6 +17,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
@@ -67,12 +68,18 @@
       </div>
     </div>
 
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="assets/parallax.jpg" class="responsive-img" />
+      </div>
+    </div>
+
     <section class="sections">
       <h4 class="section-headers">What we offer</h4>
 
       <div class="row">
-        <div class="col s4">
-          <div class="card card-blocks">
+        <div class="col l4 s12">
+          <div class="card card-blocks z-depth-3">
             <div class="card-img-container">
               <img src="assets/internet.png" class="card-icons" />
               <h5 class="card-headers">Web Development</h5>
@@ -86,8 +93,8 @@
           </div>
         </div>
 
-        <div class="col s4">
-          <div class="card card-blocks">
+        <div class="col l4 s12">
+          <div class="card card-blocks z-depth-4">
             <div class="card-img-container">
               <img src="assets/internet.png" class="card-icons" />
               <h5 class="card-headers">Web Development</h5>
@@ -101,8 +108,8 @@
           </div>
         </div>
 
-        <div class="col s4">
-          <div class="card card-blocks">
+        <div class="col l4 s12">
+          <div class="card card-blocks z-depth-5">
             <div class="card-img-container">
               <img src="assets/internet.png" class="card-icons" />
               <h5 class="card-headers">Web Development</h5>
@@ -115,6 +122,11 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="services-btn">
+        <a class="waves-effect blue darken-4 btn-large hero-btn"
+          >More Services</a
+        >
       </div>
     </section>
 
@@ -123,19 +135,85 @@
 
       <div class="row">
         <div class="col l6 s12">
-          <p>
+          <blockquote class="about-us-txt">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
             provident, quasi repellendus alias illo quibusdam odit excepturi
-          </p>
+          </blockquote>
+          <h6>Victor Eyo</h6>
+          <h5>CEO, Boyotech</h5>
         </div>
 
         <div class="col l6 s12">
-          <img src="assets/about us.jpg" alt="" class="land-page-img" />
+          <img src="assets/about-us.jpg" alt="" class="circle responsive-img" />
         </div>
       </div>
     </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <section class="grey lighten-1">
+      <div class="row">
+        <h4 class="section-headers">Contact us</h4>
+
+        <div data-aos="fade-left" data-aos-once="false" data-aos-delay="1500">
+          <div class="col l4 s12">
+            <div class="card card-blocks">
+              <div class="card-img-container">
+                <img src="assets/internet.png" class="card-icons" />
+                <h5 class="card-headers">Our location</h5>
+              </div>
+              <div class="card-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                  veniam delectus
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l4 s12">
+            <div class="card card-blocks">
+              <div class="card-img-container">
+                <img src="assets/internet.png" class="card-icons" />
+                <h5 class="card-headers">Call us now</h5>
+              </div>
+              <div class="card-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                  veniam delectus
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l4 s12">
+            <div class="card card-blocks">
+              <div class="card-img-container">
+                <img src="assets/internet.png" class="card-icons" />
+                <h5 class="card-headers">Send us a mail</h5>
+              </div>
+              <div class="card-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                  veniam delectus
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".parallax").parallax();
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
